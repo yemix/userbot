@@ -10,13 +10,13 @@ BOT_PREFIX = '!'
 stream_url = 'https://twitch.tv/lativ'
 start_time = datetime.datetime.utcnow()
 bot = commands.Bot(command_prefix=BOT_PREFIX)
-bitly_key = 'fea04998f10b2d07da55aaee54a7292b66100958'
+bitly_key = ''
 
 async def is_admin(ctx):
-    return ctx.author.id == 704798303744819220, 715669280078823454
+     return ctx.author.id ==            #Your Admin ID like: 704798303744819220, 715669280078823454
     
 async def is_owner(ctx):
-    return ctx.author.id == 704798303744819220
+    return ctx.author.id ==             #Your Admin ID like: 704798303744819220
 
 @bot.event
 async def on_ready():
