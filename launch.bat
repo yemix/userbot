@@ -1,4 +1,4 @@
 @echo off
-title Discord UserMusicBot
+title Discord Selfbot
 python3 bot.py
 pause
