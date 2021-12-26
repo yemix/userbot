@@ -1,2 +1,2 @@
-# Shitty selfbot
+# Shitty Userbot
 I found it on my pc coded years ago...
